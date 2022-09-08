@@ -13,8 +13,70 @@
   </head>
   <body>
     <div class="container">
-      <div class="img-left"></div>
-      <main class="content"></main>
+      <div class="img-left">
+        <div class="invisible"></div>
+        <div class="logo">
+          <img
+            src="img/stars.svg"
+            alt="Two stars overlapping"
+            class="svg-filter"
+          />
+          <div class="logo-text">STARRY EYED</div>
+        </div>
+
+        <div class="img-credit">
+          Image by <a href="https://unsplash.com/@gradienta">Gradienta</a> on
+          <a href="https://unsplash.com">Unsplash.com</a>.
+        </div>
+      </div>
+
+      <main class="content">
+        <div class="main-text">
+          <p>
+            This is *not* a functional form. Don't try to send anything, it will
+            just end up in the void. Or do, if you think someone out there is
+            listening.
+          </p>
+
+          <p>Let's do this thing!</p>
+        </div>
+        <div class="main-form">
+          <form action="">
+            <div class="form-group">
+              <div class="form-col">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" />
+              </div>
+              <div class="form-col">
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="form-col">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="form-col">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" />
+              </div>
+              <div class="form-col">
+                <label for="confirmpw">Confirm Password:</label>
+                <input type="password" id="confirmpw" name="confirmpw" />
+              </div>
+            </div>
+
+            <hr />
+            <input type="submit" value="Create Account" />
+          </form>
+          <p>Already have an account? <a href="#">Log in</a></p>
+        </div>
+      </main>
     </div>
   </body>
 </html>
