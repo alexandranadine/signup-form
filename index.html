@@ -9,6 +9,7 @@
       href="node_modules/modern-normalize/modern-normalize.css"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/car8mjb.css" />
     <title>Sign up</title>
   </head>
   <body>
@@ -45,36 +46,54 @@
             <div class="form-group">
               <div class="form-col">
                 <label for="fname">First Name:</label>
-                <input type="text" id="fname" name="fname" />
+                <input
+                  type="text"
+                  id="fname"
+                  name="fname"
+                  minlength="1"
+                  maxlength="20"
+                  required
+                />
               </div>
               <div class="form-col">
                 <label for="lname">Last Name:</label>
-                <input type="text" id="lname" name="lname" />
+                <input
+                  type="text"
+                  id="lname"
+                  name="lname"
+                  minlength="1"
+                  required
+                />
               </div>
             </div>
 
             <div class="form-group">
               <div class="form-col">
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" />
+                <input type="email" id="email" name="email" required />
               </div>
             </div>
 
             <div class="form-group">
               <div class="form-col">
                 <label for="password">Password:</label>
-                <input type="password" id="password" name="password" />
+                <input type="password" id="password" name="password" required />
               </div>
               <div class="form-col">
                 <label for="confirmpw">Confirm Password:</label>
-                <input type="password" id="confirmpw" name="confirmpw" />
+                <input
+                  type="password"
+                  id="confirmpw"
+                  name="confirmpw"
+                  required
+                />
               </div>
             </div>
 
             <hr />
             <input type="submit" value="Create Account" />
           </form>
-          <p>Already have an account? <a href="#">Log in</a></p>
+          <p>Already have an account? <a href="#">Log In!</a></p>
         </div>
       </main>
     </div>

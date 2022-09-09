@@ -3,6 +3,10 @@ body {
   height: 100%;
 }
 
+body {
+  color: #535353;
+}
+
 hr {
   border: none;
   border-top: 1px solid #a484c9;
@@ -40,8 +44,12 @@ hr {
 
 .logo-text {
   color: rgb(255, 255, 255);
-  font-size: 3rem;
-  filter: drop-shadow(0 0 20px #7014da);
+  font-size: 4rem;
+  font-family: brevia, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  text-align: center;
+  filter: drop-shadow(0 0 20px rgba(112, 20, 218, 0.3960784314));
 }
 
 .img-credit {
@@ -64,7 +72,6 @@ hr {
   width: 60vw;
   background-color: #b796dd;
   padding: 2rem;
-  color: #3f3f3f;
 }
 
 .main-text {
@@ -110,6 +117,10 @@ input[type=submit] {
   padding: 1rem 2.3rem;
   border: none;
   border-radius: 0.3rem;
+}
+
+a:active {
+  color: #b9a6ce;
 }
 
 /*# sourceMappingURL=style.css.map */
